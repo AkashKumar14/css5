@@ -1,0 +1,192 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+#shape1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-right: 50px;
+    background-color: #669999;
+    position: relative;
+    display: inline-block;
+    animation: skew1 5s ease 1s infinite;
+}
+#shape2 {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: #669999;
+    position: relative;
+    animation: skew1 5s ease 1s infinite;
+}
+#shape3 {
+    width: 100px;
+    height: 100px;
+    background-color: #669999;
+    display: inline-block;
+    position: relative;
+    animation: skew1 5s ease 1s infinite;
+}
+
+@keyframes skew1 {
+    0%   {
+        transform: skewX(0deg);
+    }
+    25%  {
+        transform: skewX(20deg);
+    }
+    50%  {
+        transform: skewX(0deg);
+    }
+    80%  {
+        transform: skewX(-20deg);
+    }
+    100% {
+        transform: skewX(0deg);
+    }
+}
+#s1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-right: 50px;
+    background-color: 	#787878;
+    position: relative;
+    display: inline-block;
+    animation: skew2 3s ease 1s infinite;
+}
+#s2 {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: 	#787878;
+    position: relative;
+    animation: skew2 3s ease 1s infinite;
+}
+#s3 {
+    width: 100px;
+    height: 100px;
+    background-color: 	#787878;
+    display: inline-block;
+    position: relative;
+    animation: skew2 3s ease 1s infinite;
+}
+
+@keyframes skew2 {
+    0%   {
+        transform: skewY(0deg);
+    }
+    25%  {
+        transform: skewY(20deg);
+    }
+    50%  {
+        transform: skewY(0deg);
+    }
+    80%  {
+        transform: skewY(-20deg);
+    }
+    100% {
+        transform: skewY(0deg);
+    }
+}
+#sr1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-right: 50px;
+    background-color: orangered;
+    position: relative;
+    display: inline-block;
+    animation: skew3 3s ease 1s infinite;
+}
+#sr2 {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: 	orangered;
+    position: relative;
+    animation: skew3 3s ease 1s infinite;
+}
+#sr3 {
+    width: 100px;
+    height: 100px;
+    background-color: 	orangered;
+    display: inline-block;
+    position: relative;
+    animation: skew3 3s ease 1s infinite;
+}
+
+@keyframes skew3 {
+    100% {transform: rotate(360deg)}
+}
+#srt1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-right: 50px;
+    background-color: #669999;
+    position: relative;
+    display: inline-block;
+    animation: skew4 3s ease 1s infinite;
+}
+#srt2 {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: 	maroon;
+    position: relative;
+    animation: skew5 3s ease 1s infinite;
+}
+#srt3 {
+    width: 100px;
+    height: 100px;
+    background-color: 	magenta;
+    display: inline-block;
+    position: relative;
+    animation: skew6 3s ease 1s infinite;
+}
+
+@keyframes skew4 {
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        transform: scaleY(0.5);
+    }
+}
+@keyframes skew5 {
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        transform: scaleX(0.5);
+    }
+}
+@keyframes skew6{
+    50% {transform: rotate(90deg)}
+    100%{transform: rotate(-90deg)}
+}
+.link1{
+    text-align: center;
+    color: brown;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bolder ;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+
+
